@@ -1,0 +1,247 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header code start */
+    header{
+        padding: 8px 0;
+    }
+    .manu .nav-item .nav-link {
+        padding: 12px 0px 0px;
+        font-size: 20px;
+        text-align: end;
+    }
+    /* header code end *//* slider code start */
+    .slider-section{
+        padding-bottom: 60px;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 13px;
+        height: 13px;
+        margin-bottom: 5px;
+    }
+    
+    .s-text{
+        margin-top: 0px;
+    }
+    .s-text h1{
+        font-size: 25px;
+    }
+    .s-text h2{
+        margin: 10px 0;
+    }
+    .s-text p{
+        margin-bottom: 0px;
+    }
+    .sli-icon ul li i{
+        font-size: 30px;
+        margin-right: 14px;
+    }
+    /* slider code end */
+    /* future section coder start */
+    .c-pading{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .futur-h1 {
+        margin-bottom: 8px;
+        font-size: 24px;
+    }
+    .futur-pa {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .f-img-i{
+        margin-top: 0px;
+    }
+    
+    .f-item{
+        margin-top: 25px;
+    }
+    
+    .f-img-i i{
+        font-size: 35px;
+    }
+    .f-text{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .f-text h2{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .f-text p{
+        letter-spacing: 0px;
+    }
+    /* future section coder end */
+    /* contact section code start */
+    .c-form{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .c-input{
+        height: 38px;
+        padding: 15px 10px;
+    }
+    .btn-submit{
+        height: 38px;
+    }
+    .c-icon ul li{
+        margin-right: 20px !important;
+    }
+    .c-icon ul li i{
+        font-size: 30px;
+    }
+    /* contact section code end */
+    /* footer section code start */
+    footer{
+        padding-bottom: 50px;
+    }
+    .ff-1{
+        text-align: center;
+    }
+    .ff-2{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    /* footer section code end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header code start */
+    .manu .nav-item .nav-link {
+        padding: 12px 0px 0px;
+        font-size: 20px;
+        text-align: end;
+    }
+    /* header code end */
+    /* slider code start */
+    .slider-section{
+        padding-bottom: 60px;
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 13px;
+        height: 13px;
+        margin-bottom: 7px;
+    }
+    
+    .s-text{
+        margin-top: 0px;
+    }
+    .s-text h1{
+        font-size: 25px;
+    }
+    .s-text h2{
+        margin: 10px 0;
+    }
+    .s-text p{
+        margin-bottom: 0px;
+    }
+    .sli-icon ul li i{
+        font-size: 30px;
+        margin-right: 14px;
+    }
+    /* slider code end */
+    /* future section coder start */
+    .c-pading{
+        padding-top: 48px;
+        padding-bottom: 65px;
+    }
+    .f-img-i{
+        margin-top: 0px;
+    }
+    
+    .f-item{
+        margin-top: 40px;
+    }
+    
+    .f-img-i i{
+        font-size: 35px;
+    }
+    .f-text{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .f-text h2{
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .f-text p{
+        letter-spacing: 0px;
+    }
+    /* future section coder end */
+    /* contact section code start */
+    .c-form{
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+    .c-input{
+        height: 38px;
+        padding: 15px 10px;
+    }
+    .btn-submit{
+        height: 38px;
+    }
+    .c-icon ul li{
+        margin-right: 25px !important;
+    }
+    /* contact section code end */
+    /* footer section code start */
+    footer{
+        padding-bottom: 50px;
+    }
+    .ff-1{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .ff-2{
+        text-align: center;
+    }
+
+    /* footer section code end */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header code start */
+    .manu .nav-item .nav-link {
+        padding: 12px 0px 0px;
+        text-align: end;
+    }
+    /* header code end */
+    /* future section code start  */
+    .c-pading{
+        padding-top: 48px;
+        padding-bottom: 65px;
+    }
+    .f-item{
+        margin-top: 40px;
+    }
+    /* future section code end */
+    /* contact section code start */
+    .c-form{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* contact section code end */
+    /* footer section code start */
+    footer{
+        padding-bottom: 75px;
+    }
+    /* footer section code end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1299px) and (max-width: 1399.98px) { 
+
+}
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
